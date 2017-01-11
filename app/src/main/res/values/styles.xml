@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="actionBarStyle">@style/MiwokAppBarStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- App bar style -->
+    <style name="MiwokAppBarStyle" parent="style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!-- Remove shadow below app bar -->
+        <item name="elevation">0dp</item>
+    </style>
+
+    <!-- Style for each category tab of vocabulary words -->
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
+        <item name="tabTextColor">#a8a19e</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+    </style>
+
+</resources>
